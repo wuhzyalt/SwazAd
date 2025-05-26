@@ -7,8 +7,13 @@ api_hash = os.getenv('API_HASH')
 source_channel = 'dauntlessly'
 message_id = 535
 target_chats = [
-    ('@skidtxt', 6),  # example topic IDs
-    ('@janehcbe', 6)
+    ('@sectormarket', 18),  # example topic IDs
+    ('@social', 13),
+    ('@marketogs', 127884),
+    ('@oguflip', 11196),
+    ('@blackmarket', 16),
+    ('@LuxurMarket', 21),
+    ('@texted', 7)
 ]
 
 client = TelegramClient('forward_by_link_session', api_id, api_hash)
