@@ -7,7 +7,7 @@ api_hash = os.getenv('API_HASH')
 source_channel = 'dauntlessly'
 message_id = 535
 target_chats = [
-    ('@dkidtxt', 6),  # example topic IDs
+    ('@skidtxt', 6),  # example topic IDs
     ('@janehcbe', 6)
 ]
 
