@@ -13,6 +13,7 @@ target_chats = [
     ('@oguflip', 11196),
     ('@blackmarket', 16),
     ('@LuxurMarket', 21),
+    ('@TheStockChat', 245492),
     ('@texted', 7)
 ]
 
