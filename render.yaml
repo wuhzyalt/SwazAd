@@ -1,0 +1,12 @@
+services:
+  - type: worker
+    name: swazad-forwarder
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python autoforward.py
+    envVars:
+      - key: API_ID
+        value: YOUR_API_ID
+      - key: API_HASH
+        value: YOUR_API_HASH
